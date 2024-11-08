@@ -15,6 +15,9 @@ from llama_index.core.storage.storage_context import StorageContext
 from llama_index.core import VectorStoreIndex
 from llama_index.core import Settings
 from tenacity import retry, stop_after_attempt, wait_exponential
+from trulens.core import Feedback
+from trulens.apps.llamaindex import TruLlama
+from trulens.providers.openai import OpenAI as _OpenAI
 
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_KEY"),  
@@ -25,12 +28,42 @@ client = AzureOpenAI(
 with open("concepts.json", "r") as f:
     data = json.loads(f.read())
 
+
+llm = OpenAI(model="gpt-4o-mini")
+embed_model_name = "text-embedding-3-large"
+embed_model = OpenAIEmbedding(model=embed_model_name)
+
+chroma_client = chromadb.EphemeralClient()
+try:
+    chroma_client.delete_collection("example_collection")
+except Exception:
+    pass  # If the collection does not exist, do nothing
+
+chroma_collection = chroma_client.create_collection("example_collection")
+vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
+Settings.embed_model = embed_model
+Settings.llm = llm
+top_k = 5
+chunk_size = 1024
+storage_context = StorageContext.from_defaults(vector_store = vector_store)
+
+
 for level, areas in data.items():
+    if level != "primary school":
+        continue
+
     for area, qs in tqdm(areas.items()):
+        if area != "accounting":
+            continue
+        
         wiki_docs = []
+        _quiz = []
+        _scores = []
         for question, concepts in zip(qs["questions"], qs["concepts"]):
 
-            for concept in concepts:
+            quiz = []
+            scores = []
+            for concept in concepts[:5]:
                 wiki_docs = []
                 try:
                     doc = WikipediaReader().load_data(pages=[concept])
@@ -40,19 +73,20 @@ for level, areas in data.items():
                     print(f"Error loading page for concept {concept}: {e}")
 
 
-                chroma_client = chromadb.EphemeralClient()
-                chroma_collection = chroma_client.create_collection("example_collection")
-                vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
+                # chroma_client = chromadb.EphemeralClient()
+                # try:
+                #     chroma_client.delete_collection("example_collection")
+                # except Exception:
+                #     pass  # If the collection does not exist, do nothing
+
+                # chroma_collection = chroma_client.create_collection("example_collection")
+                # vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
  
 
-                llm = OpenAI(model="gpt-4o-mini")
-                embed_model_name = "text-embedding-3-large"
-                embed_model = OpenAIEmbedding(model=embed_model_name)
+                # Settings.embed_model = embed_model
+                # Settings.llm = llm
 
-                Settings.embed_model = embed_model
-                Settings.llm = llm
-
-                storage_context = StorageContext.from_defaults(vector_store = vector_store)
+                # storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
                 # wiki_docs = []
                 
@@ -60,34 +94,27 @@ for level, areas in data.items():
                 # index.set_index_id("vector_index")
                 # index.storage_context.persist("./storage")
 
-                top_k = 5
-                chunk_size = 1024
-
                 query_engine = index.as_query_engine(top_k = top_k)
-                @retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=1, min=4, max=10))
-                def call_query_engine(prompt):
-                    return query_engine.query(prompt)
+                # @retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=1, min=4, max=10))
+                # def call_query_engine(prompt):
+                #     return query_engine.query(prompt)
                 
                 prompt = f"""You are a quiz generator. The student is currently studying {area} at the {level} level. Please create a quiz to help the student better understand the concept of {concept} by using information from the Wikipedia page on {concept}. The quiz should consist of one question, one correct answer, and three incorrect options. The correct answer must always be placed in option A.
 
-    Example:
+Example:
 
-    Question: What is the capital city of China?
-    A. Beijing
-    B. Chengdu
-    C. Shanghai
-    D. Hangzhou
+Question: What is the capital city of China?
+A. Beijing
+B. Chengdu
+C. Shanghai
+D. Hangzhou
 
-    Now, please generate the quiz:"""
+Now, please generate the quiz:"""
 
                 # print(f"Prompt: {prompt}")
                 # print(f"Response: {call_query_engine(prompt)}\n")
 
-                from trulens.providers.openai import OpenAI
-                from trulens.core import Feedback
-                from trulens.apps.llamaindex import TruLlama
-
-                provider = OpenAI(model_engine="gpt-4o-mini")
+                provider = _OpenAI(model_engine="gpt-4o-mini")
 
                 context = TruLlama.select_context(query_engine)
 
@@ -111,9 +138,9 @@ for level, areas in data.items():
                 )
 
 
-                from trulens.core.session import TruSession
-                session = TruSession()
-                session.reset_database()
+                # from trulens.core.session import TruSession
+                # session = TruSession()
+                # session.reset_database()
 
                 tru_query_engine = TruLlama(query_engine,
                     app_name = "Wikipedia RAG",
@@ -128,12 +155,21 @@ for level, areas in data.items():
                 # you may want to uncomment exponential backoff when you're done debugging
                 # @retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=1, min=4, max=10))
                 with tru_query_engine as recording:
-                    respoonse = query_engine.query(prompt)
-                    print(respoonse)
+                    response = query_engine.query(prompt)
                     rec = recording.get()
+                    score = {}
                     for feedback, feedback_result in rec.wait_for_feedback_results().items():
-                        print(feedback.name, feedback_result.result)
+                        score[feedback.name] = feedback_result.result
+                        # print(feedback.name, feedback_result.result)
+                
+                quiz.append(str(response))
+                scores.append(score)
+            
+            _quiz.append(quiz)
+            _scores.append(scores)
 
-                                                            
+        data[level][area]["quiz"] = _quiz
+        data[level][area]["score"] = _scores
 
-                exit()
+with open("quiz.json", "w") as f:
+    f.write(json.dumps(data, indent=4))
