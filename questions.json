@@ -1,0 +1,638 @@
+{
+    "primary school": {
+        "accounting": [
+            "What is money, and why do we use it instead of trading things like toys?",
+            "How do businesses keep track of the money they earn and spend?",
+            "What is a budget, and why is it important for people and companies?",
+            "Why do some people save their money instead of spending it all at once?",
+            "What are the different types of jobs in accounting, and what do they do?"
+        ],
+        "agriculture": [
+            "What are the different types of plants that we can grow in a garden?",
+            "How do farmers take care of their crops to make sure they grow healthy?",
+            "Why is it important to have bees and other insects in agriculture?",
+            "What are some ways we can help protect the environment while farming?",
+            "How do weather and seasons affect what crops can be grown?"
+        ],
+        "architechture and engineering": [
+            "What different materials are used to build houses, and why are they chosen?",
+            "How do architects come up with their designs for buildings?",
+            "What is the purpose of a blueprint in construction?",
+            "How do engineers make sure a tall building is strong enough to stand up?",
+            "Can you explain what green buildings are and why they are important for the environment?"
+        ],
+        "art": [
+            "What different materials can we use to create art, and how do they change the way our artwork looks?",
+            "How can colors influence our feelings when we look at a painting?",
+            "What are some famous artists, and what techniques did they use to create their masterpieces?",
+            "Why do we have different styles of art, like realism and abstract, and what makes each unique?",
+            "How can we use art to tell a story or express our emotions?"
+        ],
+        "art theory": [
+            "What are the different colors on the color wheel, and how do they work together in art?",
+            "What makes a painting or drawing beautiful to people?",
+            "How do artists choose what to draw or paint?",
+            "What are some famous artworks, and why are they important?",
+            "How can art help us express our feelings and ideas?"
+        ],
+        "basic medical science": [
+            "What are the main parts of the human body, and what do they do?",
+            "Why is it important to wash our hands before eating?",
+            "How do our hearts pump blood, and why is that important for staying healthy?",
+            "What are germs, and how do they make us sick?",
+            "Why do we need to see a doctor when we feel unwell?"
+        ],
+        "biology": [
+            "What are the different types of animals, and what makes them unique?",
+            "How do living things grow and change over time?",
+            "Why do we need to take care of our environment and the animals in it?",
+            "What are the main jobs of the heart and lungs in our body?",
+            "How do plants make their own food using sunlight?"
+        ],
+        "chemistry": [
+            "What are the different states of matter, and how can we change from one state to another?",
+            "How do chemical reactions occur, and what happens to the substances involved?",
+            "Why do some things dissolve in water while others do not?",
+            "What are acids and bases, and how can we tell them apart?",
+            "How can we safely conduct simple experiments at home to learn about chemistry?"
+        ],
+        "clinical medicne": [
+            "What are the main jobs of doctors and nurses in a hospital?",
+            "How do our bodies fight off germs and keep us healthy?",
+            "What are some common reasons people go to the doctor?",
+            "Why do we need to get vaccinations, and how do they work?",
+            "What is a stethoscope, and how do doctors use it to listen to our hearts?"
+        ],
+        "computer science": [
+            "How do computers help us do our homework and learn new things?",
+            "What is the difference between hardware and software in a computer?",
+            "Can you explain what coding is and why it's important?",
+            "How do video games work and what makes them fun to play?",
+            "What are some common problems that computers can have, and how can we fix them?"
+        ],
+        "design": [
+            "What are the different types of design, like graphic or product design, and how are they used in everyday life?",
+            "How do colors and shapes affect what we feel when we look at something designed?",
+            "What materials can be used in design, and how do they change the way something looks or feels?",
+            "How do designers come up with new ideas, and what steps do they take to make them happen?",
+            "Why is it important for things we use, like toys or clothes, to be designed well?"
+        ],
+        "diagnostics and laboratory madicine": [
+            "What is the role of a doctor in diagnosing diseases?",
+            "How do blood tests help us understand what is happening inside our bodies?",
+            "What tools do scientists use in a laboratory to study germs and cells?",
+            "Why is it important to wash our hands before and after using the lab equipment?",
+            "How can doctors tell if someone is sick just by looking at their samples?"
+        ],
+        "economics": [
+            "What is money, and why do people use it instead of bartering?",
+            "How do businesses decide what prices to charge for their products?",
+            "What are some things that people do to save money?",
+            "Why do some countries have more money than others?",
+            "How can we help our community by spending money in local businesses?"
+        ],
+        "electronics": [
+            "What is electricity, and how does it travel through wires?",
+            "What are some common electronic devices we use every day?",
+            "How do batteries store and provide power to electronic devices?",
+            "What is a circuit, and why is it important for electronic gadgets?",
+            "How can we stay safe around electrical outlets and devices?"
+        ],
+        "energy and power": [
+            "What are the different sources of energy we use every day?",
+            "How does electricity travel from power plants to our homes?",
+            "What are renewable energy sources, and why are they important?",
+            "How do solar panels work to generate electricity from sunlight?",
+            "What can we do to save energy at home and help the environment?"
+        ],
+        "finance": [
+            "What is money, and why do we use it instead of bartering?",
+            "How do banks help people save and manage their money?",
+            "What are the different ways that people can earn money when they grow up?",
+            "Why is it important to save money for the future?",
+            "What are some simple things I can do to spend my money wisely?"
+        ],
+        "geography": [
+            "What are the different continents, and what makes each one unique?",
+            "Why do some places on Earth have different climates and weather patterns?",
+            "How do rivers and mountains affect where people decide to live?",
+            "What is the purpose of a map, and how can we use one to find our way?",
+            "How do natural resources like water and trees impact a community's development?"
+        ],
+        "history": [
+            "What was daily life like for children in ancient civilizations, and how did it differ from today?",
+            "Who were some important historical figures, and what did they do to change the world?",
+            "How did people communicate and share stories before the invention of writing?",
+            "What were some of the major events that led to the founding of our country?",
+            "How do we learn about history, and why is it important to study it?"
+        ],
+        "literature": [
+            "What are the main elements of a story, like characters and settings?",
+            "How can we find the moral or lesson in a fable or fairy tale?",
+            "Why do authors use different kinds of storytelling styles, like poems or prose?",
+            "What are some famous books that teach us about friendship and kindness?",
+            "How can illustrations in a book help us understand the story better?"
+        ],
+        "manage": [
+            "What does it mean to be a good manager, and why is it important?",
+            "How do managers help their teams work better together?",
+            "What are some ways a manager can solve problems when they come up?",
+            "Why is communication important in management?",
+            "What skills do you think a manager should have to be successful?"
+        ],
+        "marketing": [
+            "What is marketing, and why is it important for businesses?",
+            "How do advertisements on TV and the internet influence what we buy?",
+            "What are some fun ways companies try to get our attention when selling products?",
+            "Why do some brands use mascots or characters in their advertising?",
+            "How can we tell if an advertisement is trying to convince us to buy something?"
+        ],
+        "materials": [
+            "What are the different types of materials we use every day, and what are they made from?",
+            "How can we tell if a material is soft or hard, and what does that mean for how we use it?",
+            "Why do some materials float in water while others sink?",
+            "How does recycling materials help our planet?",
+            "What are some ways we can use materials to make our own fun crafts or toys?"
+        ],
+        "math": [
+            "What are the different ways we can add and subtract numbers?",
+            "How do we use shapes to understand space and measurements?",
+            "Why is it important to learn about numbers and counting in our everyday lives?",
+            "What are patterns, and how can we find them in nature or in our classroom?",
+            "How do we solve simple problems using math in our daily activities?"
+        ],
+        "mechanical engineering": [
+            "What are the basic machines, and how do they help us in our everyday lives?",
+            "How does a car engine work, and what makes it go?",
+            "What materials are used to build machines, and why are they important?",
+            "What is the difference between simple machines and complex machines?",
+            "Can you show me how gears work and why they are used in machines?"
+        ],
+        "music": [
+            "What are the different types of musical instruments, and how do they make sounds?",
+            "How can music affect our feelings and emotions?",
+            "What is the difference between rhythm and melody in a song?",
+            "Who are some famous musicians, and what makes their music special?",
+            "How do different cultures express themselves through music?"
+        ],
+        "pharmacy": [
+            "What are the different types of medicine and how do they help us feel better?",
+            "How do pharmacists know which medicine to give to people?",
+            "What is the difference between over-the-counter medicine and prescription medicine?",
+            "Why is it important to store medicine properly?",
+            "How do pharmacists ensure that medicines are safe for us to use?"
+        ],
+        "physics": [
+            "What is gravity, and how does it affect the way we move on Earth?",
+            "How do magnets work, and why can they attract or repel certain objects?",
+            "What is energy, and why is it important for things to move and work?",
+            "How do we use simple machines like levers and pulleys in our everyday lives?",
+            "What causes different objects to float or sink in water?"
+        ],
+        "psychology": [
+            "What is the difference between feelings and emotions?",
+            "How do our thoughts influence our behavior?",
+            "What are some ways to handle anger when it arises?",
+            "Why do some people act differently in front of their friends than when they are alone?",
+            "How can talking about our feelings help us feel better?"
+        ],
+        "public health": [
+            "What are some ways we can keep our bodies healthy and strong?",
+            "Why is it important for everyone to wash their hands regularly?",
+            "How does drinking water help us feel better and stay active?",
+            "What are some different kinds of food that are good for our health?",
+            "Why should we get vaccines, and how do they help protect us?"
+        ],
+        "sociology": [
+            "What is sociology, and why is it important to understand how people interact with each other?",
+            "How do families influence the way we think and behave in society?",
+            "What are some different types of communities, and what makes each one unique?",
+            "Why do people have different cultures, and how do those cultures affect their daily lives?",
+            "How can understanding other people's feelings and opinions help us get along better?"
+        ]
+    },
+    "high school": {
+        "accounting": [
+            "What are the key differences between assets, liabilities, and equity in a balance sheet?",
+            "How do you prepare a cash flow statement, and why is it important for a business?",
+            "What is the significance of the accounting equation, and how does it relate to financial statements?",
+            "Can you explain the difference between accrual accounting and cash accounting?",
+            "What are the ethical responsibilities of accountants, and why are they important in the profession?"
+        ],
+        "agriculture": [
+            "What are the main types of farming practices, and how do they impact the environment?",
+            "How do climate change and weather patterns affect crop production?",
+            "What role do pests and diseases play in agriculture, and how can they be managed?",
+            "What are the benefits and challenges of organic farming compared to conventional farming?",
+            "How does technology, like drones and precision agriculture, change the way we grow food?"
+        ],
+        "architechture and engineering": [
+            "What are the key differences between various architectural styles, and how do they reflect the culture of their time?",
+            "How do engineers ensure that a building is safe and can withstand natural disasters like earthquakes?",
+            "What role does technology play in modern architecture and engineering design?",
+            "How can sustainable practices be integrated into architecture to minimize environmental impact?",
+            "What are some challenges architects face when balancing aesthetics and functionality in their designs?"
+        ],
+        "art": [
+            "What are the key differences between various art movements, such as Impressionism and Surrealism?",
+            "How has technology changed the way artists create and share their work in modern times?",
+            "What role does culture play in influencing an artist's style and subject matter?",
+            "How do color theory and composition impact the emotional response a viewer has to a piece of art?",
+            "What are some techniques artists use to convey social or political messages through their artwork?"
+        ],
+        "art theory": [
+            "What are the different art movements throughout history, and how did they influence each other?",
+            "How does color theory impact the way we perceive and create art?",
+            "What role does the artist's intention play in interpreting artwork?",
+            "How can elements like line, shape, and texture create emotional responses in viewers?",
+            "What are some key techniques used in modern art, and how do they differ from traditional methods?"
+        ],
+        "basic medical science": [
+            "What are the main systems in the human body, and how do they work together to keep us healthy?",
+            "How do vaccines train our immune system to fight diseases?",
+            "What are the differences between bacteria and viruses in terms of their structure and how they affect our health?",
+            "How does nutrition impact our overall health and well-being?",
+            "What role does the nervous system play in our responses to external stimuli?"
+        ],
+        "biology": [
+            "What are the differences between prokaryotic and eukaryotic cells, and how do these differences affect their functions?",
+            "How do photosynthesis and cellular respiration work together to support life on Earth?",
+            "In what ways do genetic mutations influence evolution and natural selection?",
+            "What are the major systems of the human body, and how do they interact to maintain homeostasis?",
+            "How do environmental factors like climate change impact biodiversity and ecosystems?"
+        ],
+        "chemistry": [
+            "What is the difference between an element and a compound, and can you give examples of each?",
+            "How do chemical reactions occur, and what are the signs that a reaction has taken place?",
+            "What is the significance of the periodic table, and how can it help us understand the properties of elements?",
+            "How do acids and bases react with each other, and what role do they play in everyday life?",
+            "What is the concept of molarity, and how is it used in preparing solutions in a laboratory?"
+        ],
+        "clinical medicne": [
+            "What are the main differences between bacterial and viral infections, and how are they treated?",
+            "How does the human immune system protect the body from disease?",
+            "What role do vaccines play in preventing illnesses, and how do they work?",
+            "What are some common symptoms of chronic diseases, and how do they differ from acute illnesses?",
+            "How does lifestyle, such as diet and exercise, affect overall health and the risk of disease?"
+        ],
+        "computer science": [
+            "What are the main differences between programming languages like Python and Java?",
+            "How does the internet work, and what role do servers play in it?",
+            "What is the importance of algorithms in computer science, and can you give an example?",
+            "How do computer networks ensure security and protect data from hackers?",
+            "What are some real-world applications of artificial intelligence that we encounter every day?"
+        ],
+        "design": [
+            "What are the key principles of design, and how do they influence our everyday surroundings?",
+            "How can I use color theory to enhance my design projects and convey specific emotions?",
+            "What role does typography play in effective design, and how can I choose the right fonts for my work?",
+            "How do designers conduct user research to create products that meet the needs of their target audience?",
+            "What software tools are essential for modern graphic design, and how can I get started learning them?"
+        ],
+        "diagnostics and laboratory madicine": [
+            "What are the common techniques used in laboratory medicine to diagnose diseases?",
+            "How do different types of tests, like blood tests and imaging, contribute to our understanding of a patient's health?",
+            "What role do laboratory technicians play in ensuring accurate diagnostic results?",
+            "How can errors in laboratory testing impact patient care and treatment decisions?",
+            "What are some emerging technologies in diagnostics that could change the future of medicine?"
+        ],
+        "economics": [
+            "What is the difference between microeconomics and macroeconomics, and why is each important?",
+            "How do supply and demand influence the prices of goods and services in a market?",
+            "What role do banks play in the economy, and how do they affect our daily lives?",
+            "How do government policies, like taxes and subsidies, impact businesses and consumers?",
+            "What are some real-world examples of economic recessions, and what causes them?"
+        ],
+        "electronics": [
+            "What are the basic components of a circuit, and how do they work together?",
+            "How do resistors, capacitors, and inductors differ in their functions within an electronic circuit?",
+            "What is the difference between alternating current (AC) and direct current (DC), and where are they used?",
+            "How can I safely measure voltage and current in a circuit using a multimeter?",
+            "What are some practical applications of electronics in our daily lives?"
+        ],
+        "energy and power": [
+            "What are the different forms of energy, and how can they be converted from one form to another?",
+            "How does renewable energy impact the environment compared to non-renewable energy sources?",
+            "What is the role of technology in improving energy efficiency in homes and businesses?",
+            "How do power plants generate electricity, and what are the advantages and disadvantages of each type?",
+            "What are some ways individuals can reduce their energy consumption and contribute to sustainability?"
+        ],
+        "finance": [
+            "What are the basic concepts of budgeting, and why is it important for managing money?",
+            "How do interest rates on loans and savings accounts affect personal finances?",
+            "What are the different types of investments, and how do they work to grow wealth?",
+            "Why is credit history important, and how can it impact financial decisions?",
+            "What role does inflation play in the economy, and how does it affect purchasing power?"
+        ],
+        "geography": [
+            "What are the main factors that influence climate in different regions around the world?",
+            "How do human activities impact the natural environment and contribute to climate change?",
+            "What is the significance of renewable resources, and how can they help sustain our planet?",
+            "How do tectonic plates affect the geography and landscapes of various countries?",
+            "What role do cartography and mapping play in our understanding of global geography?"
+        ],
+        "history": [
+            "What were the main causes of the American Revolution, and how did they affect the colonies?",
+            "How did the Industrial Revolution change the lives of everyday people?",
+            "What role did women play in the fight for civil rights during the 1960s?",
+            "How did World War II influence global political landscapes in the following decades?",
+            "What were some of the key cultural impacts of the Roaring Twenties in the United States?"
+        ],
+        "literature": [
+            "What themes are commonly explored in classic literature, and how do they relate to modern society?",
+            "How can understanding the author's background and historical context enhance our interpretation of a text?",
+            "What techniques do authors use to develop complex characters, and why are they important for storytelling?",
+            "How does the structure of a poem influence its meaning and emotional impact on the reader?",
+            "In what ways do literary genres differ, and how can a writer choose the right genre for their story?"
+        ],
+        "manage": [
+            "What are the key differences between leadership and management, and why are both important in an organization?",
+            "How can effective time management improve productivity in both personal and professional settings?",
+            "What role does teamwork play in project management, and how can conflicts within a team be resolved?",
+            "How do external factors like economic trends and technology impact management strategies?",
+            "What ethical considerations should managers keep in mind when making decisions that affect employees and stakeholders?"
+        ],
+        "marketing": [
+            "What are the main goals of marketing, and how do they help businesses succeed?",
+            "How do companies decide which audience to target when promoting their products?",
+            "What role does social media play in modern marketing strategies?",
+            "Can you explain the difference between traditional marketing and digital marketing?",
+            "How do businesses measure the effectiveness of their marketing campaigns?"
+        ],
+        "materials": [
+            "What are the properties that make certain materials better for construction than others?",
+            "How do temperature and pressure affect the behavior of different materials?",
+            "What role do renewable materials play in sustainable development?",
+            "Can you explain how composites are made and why they are used in various industries?",
+            "What techniques are used to test the strength and durability of materials?"
+        ],
+        "math": [
+            "What are the real-life applications of quadratic equations, and how can they be used to solve everyday problems?",
+            "How do different types of functions, like linear and exponential, compare in terms of their growth rates?",
+            "What are the fundamental concepts behind probability, and how can we apply them to make decisions?",
+            "Can you explain the significance of the Pythagorean theorem in both geometry and real-world scenarios?",
+            "How do mathematical proofs work, and why are they important in validating mathematical concepts?"
+        ],
+        "mechanical engineering": [
+            "What are the basic principles of mechanics that every mechanical engineer should know?",
+            "How do different materials affect the design and functionality of a mechanical product?",
+            "What role does computer-aided design (CAD) software play in mechanical engineering projects?",
+            "Can you explain the importance of thermodynamics in mechanical systems?",
+            "What are some common challenges engineers face when creating new machinery or tools?"
+        ],
+        "music": [
+            "What are the different music genres, and how have they evolved over time?",
+            "How do composers create emotion in their music through harmony and rhythm?",
+            "What role does music play in different cultures and societies around the world?",
+            "How can learning to play an instrument improve cognitive skills and discipline?",
+            "What are the technical aspects of recording music, and how do they affect the final product?"
+        ],
+        "pharmacy": [
+            "What are the main types of medications, and how do they work in the body?",
+            "How do pharmacists determine the correct dosage for different patients?",
+            "What role do pharmacists play in preventing medication errors?",
+            "How do over-the-counter medications differ from prescription drugs?",
+            "What are the potential side effects of common medications, and how can they be managed?"
+        ],
+        "physics": [
+            "What is the difference between static and kinetic friction, and how does it affect movement?",
+            "How do Newton's laws of motion apply to everyday situations like driving a car?",
+            "What is the concept of energy conservation, and why is it important in physics?",
+            "How do the principles of thermodynamics relate to engines and refrigerators?",
+            "What are black holes, and what impact do they have on the understanding of the universe?"
+        ],
+        "psychology": [
+            "What are the main theories of personality development, and how do they differ from each other?",
+            "How do psychologists study and measure emotions in people?",
+            "What is the impact of social media on mental health, particularly among teenagers?",
+            "How do cognitive biases influence our decision-making processes?",
+            "What role does the environment play in shaping our behavior and mental health?"
+        ],
+        "public health": [
+            "What are the main factors that contribute to the spread of infectious diseases in communities?",
+            "How do public health campaigns influence people's behaviors regarding nutrition and exercise?",
+            "What role do vaccines play in preventing disease outbreaks, and how are they developed?",
+            "How does access to clean water and sanitation affect public health outcomes in different populations?",
+            "What strategies can governments implement to address health disparities among various demographic groups?"
+        ],
+        "sociology": [
+            "What are the main factors that influence social change in a community?",
+            "How do different cultures shape an individual's identity and beliefs?",
+            "What role does social class play in a person's opportunities and experiences?",
+            "In what ways can social media impact interpersonal relationships and communication?",
+            "How do sociologists study group behavior and what methods do they use?"
+        ]
+    },
+    "university": {
+        "accounting": [
+            "What are the main differences between financial accounting and managerial accounting?",
+            "How do accounting principles ensure the accuracy of financial statements?",
+            "What role do budgets play in a company's financial planning and performance?",
+            "How does the concept of time value of money affect investment decisions?",
+            "What are the ethical considerations accountants must keep in mind while reporting financial information?"
+        ],
+        "agriculture": [
+            "What are the most effective sustainable farming practices that can improve crop yield while preserving the environment?",
+            "How do soil health and composition affect the growth and development of different crops?",
+            "What role does technology, like precision agriculture, play in modern farming techniques?",
+            "How do agricultural policies impact food security and the livelihoods of farmers in developing countries?",
+            "What are the challenges and opportunities presented by climate change for the future of agriculture?"
+        ],
+        "architechture and engineering": [
+            "What are the key principles of sustainable design in modern architecture, and how do they impact the environment?",
+            "How do different materials influence the structural integrity and aesthetic of a building?",
+            "What are the major technological advancements in engineering that have transformed architectural design?",
+            "How do cultural influences shape architectural styles in different regions around the world?",
+            "What role does collaboration between architects and engineers play in the success of a construction project?"
+        ],
+        "art": [
+            "What are the key movements in art history, and how did they influence modern art today?",
+            "How do different cultures express their identity through visual art forms?",
+            "In what ways can art be used as a tool for social and political change?",
+            "What role does technology play in contemporary art practices?",
+            "Can you explain the significance of color theory in artwork composition?"
+        ],
+        "art theory": [
+            "What are the key differences between modernism and postmodernism in art theory?",
+            "How do cultural contexts influence the interpretation of artworks?",
+            "What role does the artist's intention play in understanding a piece of art?",
+            "Can you explain the significance of aesthetics in art criticism?",
+            "How do movements in art history reflect social and political changes in society?"
+        ],
+        "basic medical science": [
+            "What are the major systems of the human body, and how do they interact with each other?",
+            "How do various diseases affect the body's homeostasis?",
+            "What are the most common methods used in medical research to test new treatments?",
+            "In what ways does nutrition impact overall health and disease prevention?",
+            "How has modern technology changed the practice of medicine and patient care?"
+        ],
+        "biology": [
+            "What are the mechanisms of gene expression regulation in eukaryotic cells?",
+            "How do different types of signaling pathways affect cellular communication and response?",
+            "What are the ecological implications of biodiversity loss in various ecosystems?",
+            "How does the process of cellular respiration differ between aerobic and anaerobic organisms?",
+            "What role do epigenetic modifications play in development and disease?"
+        ],
+        "chemistry": [
+            "What are the key differences between acids and bases, and how do they react with each other?",
+            "How do intermolecular forces influence the physical properties of substances?",
+            "What role do catalysts play in chemical reactions, and why are they important in industrial processes?",
+            "How do the principles of stoichiometry apply to predicting the outcomes of chemical reactions?",
+            "Can you explain the significance of the periodic table in understanding elemental properties and trends?"
+        ],
+        "clinical medicne": [
+            "What are the most common diagnostic tools used in clinical medicine, and how do they function?",
+            "How do different medical specialties collaborate in patient care, and what is the significance of this teamwork?",
+            "What role does evidence-based medicine play in clinical decision-making?",
+            "How has technology, such as telemedicine, changed the way healthcare is delivered to patients?",
+            "What are the ethical considerations faced by clinicians when treating patients with complex medical conditions?"
+        ],
+        "computer science": [
+            "What are the main differences between structured and object-oriented programming paradigms?",
+            "How does recursion work, and can you give an example of its practical application?",
+            "What are the ethical implications of artificial intelligence in society today?",
+            "Can you explain how algorithms are evaluated for efficiency using Big O notation?",
+            "What are the key considerations when designing a user-friendly interface for software applications?"
+        ],
+        "design": [
+            "What are the key principles of design thinking, and how can they be applied in real-world projects?",
+            "How do cultural influences affect design choices in different regions?",
+            "What role does sustainability play in modern design practices?",
+            "How can technology enhance the design process and improve user experience?",
+            "What are the ethical considerations designers should keep in mind when creating products?"
+        ],
+        "diagnostics and laboratory madicine": [
+            "What are the most common diagnostic tests used to identify diseases in patients?",
+            "How can laboratory results influence treatment decisions in medicine?",
+            "What are the ethical considerations when handling patient samples in a lab?",
+            "How has technology improved the accuracy of diagnostic tests in recent years?",
+            "What role do biomarkers play in diagnosing and monitoring chronic diseases?"
+        ],
+        "economics": [
+            "What are the main factors that influence supply and demand in a market economy?",
+            "How do government policies, like taxes and subsidies, affect economic growth?",
+            "What role do central banks play in managing inflation and interest rates?",
+            "Can you explain the concept of opportunity cost and how it applies to everyday decision-making?",
+            "What are the key differences between microeconomics and macroeconomics, and why are both important?"
+        ],
+        "electronics": [
+            "What are the fundamental principles of circuit theory, and how do they apply to real-world electronic devices?",
+            "How do different types of transistors function, and what roles do they play in modern electronics?",
+            "What is the difference between analog and digital signals, and why is it important in electronic communications?",
+            "How can microcontrollers be programmed to perform specific tasks, and what languages are commonly used?",
+            "What are the safety precautions one should take while working with high-voltage electronics?"
+        ],
+        "energy and power": [
+            "What are the different sources of renewable energy, and how do they compare to fossil fuels in terms of efficiency and environmental impact?",
+            "How can energy storage technologies improve the reliability of renewable energy systems?",
+            "What role does government policy play in the transition to sustainable energy systems?",
+            "How do energy consumption patterns vary between developed and developing countries, and what implications does this have for global energy strategies?",
+            "What are the latest advancements in energy conversion technologies, such as fuel cells or thermoelectric materials?"
+        ],
+        "finance": [
+            "What are the key factors that influence stock market fluctuations?",
+            "How do interest rates affect borrowing and spending in the economy?",
+            "What is the role of central banks in regulating financial systems?",
+            "How can individuals effectively create and maintain a personal budget?",
+            "What are the risks and benefits of investing in cryptocurrencies compared to traditional assets?"
+        ],
+        "geography": [
+            "What are the key factors that influence climate patterns across different regions of the world?",
+            "How do human activities impact natural landscapes and ecosystems over time?",
+            "What methods do geographers use to study and analyze population distribution and migration trends?",
+            "How does globalization affect cultural geography and the identity of local communities?",
+            "In what ways can geographic information systems (GIS) be utilized for urban planning and disaster management?"
+        ],
+        "history": [
+            "What were the primary causes and consequences of the French Revolution?",
+            "How did the Industrial Revolution change the daily lives of people in the 19th century?",
+            "In what ways have historical narratives been shaped by the perspectives of those in power?",
+            "What role did propaganda play during World War I and II?",
+            "How can the study of ancient civilizations inform our understanding of modern societies?"
+        ],
+        "literature": [
+            "What are the significant themes explored in modernist literature, and how do they differ from those in classic literature?",
+            "How do various literary devices, such as symbolism and allegory, enhance the meaning of a text?",
+            "In what ways does the historical context influence the interpretation of a literary work?",
+            "How do different narrative perspectives shape the reader's understanding of a story?",
+            "What role does literary criticism play in the analysis and appreciation of literature?"
+        ],
+        "manage": [
+            "What are the key differences between leadership and management in an organization?",
+            "How do various management styles impact team dynamics and productivity?",
+            "What role does communication play in effective management practices?",
+            "What are the ethical considerations that managers must keep in mind when making decisions?",
+            "How can data analysis improve decision-making processes in a management context?"
+        ],
+        "marketing": [
+            "What are the key differences between traditional marketing and digital marketing strategies?",
+            "How can understanding consumer behavior improve marketing campaigns?",
+            "What role does social media play in influencing brand loyalty?",
+            "What are some effective methods for measuring the success of a marketing campaign?",
+            "How does cultural context affect marketing messages in different regions?"
+        ],
+        "materials": [
+            "What are the key properties that distinguish different types of materials, and how do those properties influence their applications?",
+            "How do the processes of recycling and sustainable sourcing impact the life cycle of materials?",
+            "In what ways can nanotechnology enhance the performance of traditional materials?",
+            "What role does stress and strain play in the design and testing of materials for engineering applications?",
+            "Can you explain the difference between ductile and brittle materials and provide examples of each in real-world contexts?"
+        ],
+        "math": [
+            "What are the real-world applications of calculus in different fields?",
+            "How do the concepts of linear algebra apply to computer graphics and data analysis?",
+            "What are the differences between statistical inference and descriptive statistics?",
+            "How can we use mathematical modeling to predict future trends in economics?",
+            "What are some common misconceptions about advanced mathematical theories, such as set theory and topology?"
+        ],
+        "mechanical engineering": [
+            "What are the fundamental principles of thermodynamics, and how do they apply to mechanical systems?",
+            "How do different materials affect the design and performance of mechanical components?",
+            "What role does computer-aided design (CAD) play in modern engineering practices?",
+            "Can you explain the concept of fluid dynamics and its significance in mechanical engineering?",
+            "What are some of the most common challenges faced in mechanical engineering projects, and how can they be overcome?"
+        ],
+        "music": [
+            "What are the fundamental differences between classical and contemporary music in terms of structure and instrumentation?",
+            "How do cultural influences shape the development of musical genres around the world?",
+            "What role does music theory play in the composition process for aspiring musicians?",
+            "How has technology impacted the way music is created and consumed in the digital age?",
+            "What are some key methods for analyzing and critiquing a musical piece from an academic perspective?"
+        ],
+        "pharmacy": [
+            "What are the primary mechanisms through which medications interact with the body?",
+            "How do pharmacists determine the appropriate dosage for different patients?",
+            "What role does patient counseling play in medication therapy management?",
+            "How do drug interactions affect the efficacy and safety of prescribed treatments?",
+            "What are the ethical considerations pharmacists must keep in mind when dispensing medication?"
+        ],
+        "physics": [
+            "What are the fundamental forces of nature, and how do they interact with each other?",
+            "How does the theory of relativity change our understanding of time and space?",
+            "What are the principles behind quantum mechanics, and how do they differ from classical physics?",
+            "How do physicists use mathematical models to predict the behavior of complex systems?",
+            "What are some practical applications of physics in everyday technology, and how do they impact our lives?"
+        ],
+        "psychology": [
+            "What are the main theories of personality, and how do they differ from one another?",
+            "How do cognitive biases influence our decision-making and perception of reality?",
+            "What role does genetics play in determining mental health and behavior?",
+            "How can psychological research be applied to improve educational practices?",
+            "What are some effective therapeutic techniques used in treating anxiety and depression?"
+        ],
+        "public health": [
+            "What are the key factors that contribute to health disparities in different populations?",
+            "How does public health policy influence community health outcomes?",
+            "What role does mental health play in overall public health?",
+            "How can we effectively measure the impact of public health interventions?",
+            "What are the most pressing global health challenges we face today?"
+        ],
+        "sociology": [
+            "What are the main theories of social behavior, and how do they explain individual actions within a group?",
+            "How does socialization influence our identity and role in society?",
+            "What are the impacts of social media on interpersonal relationships and community engagement?",
+            "How do various cultures define and perceive concepts like family and community?",
+            "In what ways do social inequalities affect access to education and employment opportunities?"
+        ]
+    }
+}

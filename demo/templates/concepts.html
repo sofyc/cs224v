@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Concepts and Wiki Information</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6;
+        }
+        .concept { 
+            background-color: #f4f4f4; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+        }
+        .wiki-docs {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .wiki-doc {
+            border-bottom: 1px solid #e0e0e0;
+            padding: 15px 0;
+        }
+        .wiki-doc:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Identified Concepts</h1>
+    <div class="concepts-container">
+        {% for concept in concepts %}
+        <div class="concept">
+            <h3>{{ concept }}</h3>
+        </div>
+        {% endfor %}
+    </div>
+
+    <h2>Wikipedia Information</h2>
+    <div class="wiki-docs">
+        {% for doc in wiki_docs.split('\n\n') %}
+        <div class="wiki-doc">
+            <p>{{ doc }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <form action="{{ url_for('quiz') }}" method="GET" style="margin-top: 20px;">
+        <input type="submit" value="Start Quiz" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+</body>
+</html>

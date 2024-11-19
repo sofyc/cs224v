@@ -1,0 +1,252 @@
+{
+    "primary school": {
+        "accounting": {
+            "questions": [
+                "What is money, and why do we use it instead of trading things like toys?",
+                "How do businesses keep track of the money they earn and spend?",
+                "What is a budget, and why is it important for people and companies?",
+                "Why do some people save their money instead of spending it all at once?",
+                "What are the different types of jobs in accounting, and what do they do?"
+            ],
+            "concepts": [
+                [
+                    "money",
+                    "trading",
+                    "toys",
+                    "economy",
+                    "currency",
+                    "value"
+                ],
+                [
+                    "money",
+                    "businesses",
+                    "track",
+                    "earnings",
+                    "spending",
+                    "accounting"
+                ],
+                [
+                    "budget",
+                    "importance",
+                    "people",
+                    "companies"
+                ],
+                [
+                    "saving",
+                    "money",
+                    "spending",
+                    "people"
+                ],
+                [
+                    "jobs",
+                    "accounting",
+                    "types",
+                    "duties"
+                ]
+            ],
+            "quiz": [
+                [
+                    "Question: What is the primary function of money that allows it to be used for buying goods and services?\nA. Medium of exchange  \nB. Storage unit  \nC. Decorative item  \nD. Historical artifact  ",
+                    "Question: What is the primary purpose of trading in economics?\nA. To exchange goods and services between parties\nB. To create a monopoly in the market\nC. To increase government regulations\nD. To limit consumer choices",
+                    "Question: What is a common purpose of toys in children's development?\nA. To promote creativity and imagination\nB. To serve as a source of income\nC. To replace educational materials\nD. To discourage social interaction",
+                    "Question: What is the measure of the size of a country's economy called?\nA. Gross Domestic Product (GDP)\nB. Net National Income (NNI)\nC. Consumer Price Index (CPI)\nD. Balance of Trade (BOT)",
+                    "Question: What is a common reason for the introduction of paper money in premodern China?  \nA. To reduce the burden of carrying heavy coins  \nB. To increase the value of gold and silver  \nC. To eliminate the use of coins entirely  \nD. To create a new form of taxation  "
+                ],
+                [
+                    "Question: What is the primary function of money that allows it to be used for buying goods and services?\nA. Medium of exchange  \nB. Unit of measurement  \nC. Store of energy  \nD. Source of entertainment  ",
+                    "Question: What type of company has shares that can be publicly traded?\nA. Public company  \nB. Private company  \nC. Sole proprietorship  \nD. General partnership  ",
+                    "Question: What is the primary purpose of a track in the context of sports?\nA. To provide a designated area for running and racing\nB. To serve as a storage space for athletic equipment\nC. To act as a spectator seating area\nD. To function as a training facility for coaches",
+                    "Question: What is the term used to describe the income generated from normal business operations?\nA. Earnings\nB. Expenses\nC. Liabilities\nD. Assets",
+                    "Question: What is the term used to describe the amount of money that is used to purchase goods and services?\nA. Spending\nB. Saving\nC. Earning\nD. Investing"
+                ],
+                [
+                    "Question: What is a personal budget primarily used for?\nA. Allocating future personal income towards expenses, savings, and debt repayment\nB. Estimating future sales for a business\nC. Predicting cash receipts and expenditures for a company\nD. Determining the costs associated with a specific project",
+                    "Question: What does it mean for something to be considered important?  \nA. It makes a significant difference in the world.  \nB. It is popular among many people.  \nC. It is often discussed in social media.  \nD. It is easy to understand.  ",
+                    "Question: What is the primary focus of the Programme for the International Assessment of Adult Competencies (PIAAC)?\nA. Measuring adults' proficiency in key information-processing skills\nB. Assessing children's reading comprehension in fourth grade\nC. Evaluating 15-year-old students' performance in mathematics\nD. Reporting on the publicly funded school system in Ontario, Canada",
+                    "Question: What type of company has shares that can be publicly traded on a stock exchange?\nA. Public company  \nB. Private company  \nC. Unlimited company  \nD. Company limited by guarantee  "
+                ],
+                [
+                    "Question: What is the primary purpose of saving money?\nA. To set aside funds for future needs or emergencies\nB. To spend all available money immediately\nC. To invest in high-risk ventures without planning\nD. To keep money hidden and unused\n\n",
+                    "Question: What was one of the main reasons for the introduction of paper money in premodern China?  \nA. To reduce the burden of exchanging heavy copper coins  \nB. To increase the value of gold and silver  \nC. To create a new form of taxation  \nD. To eliminate the use of coins entirely  ",
+                    "Question: What is a common category of personal budget that includes payments for bills and rent?\nA. Expenses  \nB. Income  \nC. Assets  \nD. Savings  ",
+                    "Question: What is the primary focus of the Programme for the International Assessment of Adult Competencies (PIAAC)?\nA. Measuring adults' proficiency in key information-processing skills\nB. Assessing children's reading comprehension in fourth grade\nC. Evaluating 15-year-old students' performance in mathematics\nD. Reporting on the publicly funded school system in Ontario, Canada"
+                ],
+                [
+                    "Question: What is the primary role of accountants in a business?\nA. To measure, process, and communicate financial information\nB. To manage the production of goods\nC. To sell products directly to consumers\nD. To provide legal advice to the company",
+                    "Question: What is accounting often referred to as in the business world?\nA. The language of business\nB. The art of negotiation\nC. The science of marketing\nD. The practice of management",
+                    "Question: What is the highest-ranking country in literacy proficiency among adults according to the PIAAC study?\nA. Japan\nB. Canada\nC. England (UK)\nD. United States",
+                    "Question: What is a civic duty that citizens are expected to perform?\nA. Obey the law  \nB. Ignore public health issues  \nC. Avoid voting in elections  \nD. Refuse to pay taxes  "
+                ]
+            ],
+            "score": [
+                [
+                    {
+                        "Groundedness": 0.4,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.6666666666666666
+                    },
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 0.3333333333333333,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 1.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.3333333333333333
+                    },
+                    {
+                        "Groundedness": 0.4,
+                        "Answer Relevance": 0.3333333333333333,
+                        "Context Relevance": 0.6666666666666666
+                    }
+                ],
+                [
+                    {
+                        "Groundedness": 0.3333333333333333,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.8333333333333333
+                    },
+                    {
+                        "Groundedness": 0.619047619047619,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.5
+                    },
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 0.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.0
+                    }
+                ],
+                [
+                    {
+                        "Groundedness": 0.8333333333333333,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.6666666666666666
+                    },
+                    {
+                        "Groundedness": 1.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 1.0
+                    },
+                    {
+                        "Groundedness": 1.0,
+                        "Answer Relevance": 0.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.75,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.6666666666666666
+                    }
+                ],
+                [
+                    {
+                        "Groundedness": 0.0,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.4,
+                        "Answer Relevance": 0.3333333333333333,
+                        "Context Relevance": 0.3333333333333333
+                    },
+                    {
+                        "Groundedness": 0.8,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.3333333333333333
+                    },
+                    {
+                        "Groundedness": 1.0,
+                        "Answer Relevance": 0.0,
+                        "Context Relevance": 0.0
+                    }
+                ],
+                [
+                    {
+                        "Groundedness": 0.8333333333333333,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.16666666666666666
+                    },
+                    {
+                        "Groundedness": 0.6666666666666666,
+                        "Answer Relevance": 1.0,
+                        "Context Relevance": 0.3333333333333333
+                    },
+                    {
+                        "Groundedness": 0.3333333333333333,
+                        "Answer Relevance": 0.0,
+                        "Context Relevance": 0.0
+                    },
+                    {
+                        "Groundedness": 0.4,
+                        "Answer Relevance": 0.3333333333333333,
+                        "Context Relevance": 0.8333333333333333
+                    }
+                ]
+            ],
+            "llm_score": [
+                [
+                    {
+                        "Educationalness": 4,
+                        "Diverseness": 3,
+                        "Area Relevance": 4,
+                        "Difficulty Appropriateness": 4,
+                        "Clarity and Structure": 4
+                    }
+                ],
+                [
+                    {
+                        "Educationalness": 4,
+                        "Diverseness": 3,
+                        "Area Relevance": 4,
+                        "Difficulty Appropriateness": 4,
+                        "Clarity and Structure": 4
+                    }
+                ],
+                [
+                    {
+                        "Educationalness": 4,
+                        "Diverseness": 3,
+                        "Area Relevance": 4,
+                        "Difficulty Appropriateness": 4,
+                        "Clarity and Structure": 4
+                    }
+                ],
+                [
+                    {
+                        "Educationalness": 4,
+                        "Diverseness": 3,
+                        "Area Relevance": 4,
+                        "Difficulty Appropriateness": 4,
+                        "Clarity and Structure": 4
+                    }
+                ],
+                [
+                    {
+                        "Educationalness": 4,
+                        "Diverseness": 3,
+                        "Area Relevance": 4,
+                        "Difficulty Appropriateness": 4,
+                        "Clarity and Structure": 4
+                    }
+                ]
+            ]
+        }
+    }
+}

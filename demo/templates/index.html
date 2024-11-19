@@ -1,0 +1,32 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Quiz Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        input, select { width: 100%; padding: 10px; margin: 10px 0; }
+        input[type="submit"] { background-color: #4CAF50; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Learning Quiz Generator</h1>
+    <form method="POST">
+        <label for="area">Study Area:</label>
+        <input type="text" name="area" required placeholder="e.g., geography, chemistry">
+        
+        <label for="level">Education Level:</label>
+        <select name="level" required>
+            <option value="high school">High School</option>
+            <option value="university">University</option>
+            <option value="graduate">Graduate</option>
+        </select>
+        
+        <label for="question">Your Question:</label>
+        <input type="text" name="question" required placeholder="e.g., Where is Stanford located?">
+        
+        <input type="submit" value="Generate Learning Materials">
+    </form>
+</body>
+</html>

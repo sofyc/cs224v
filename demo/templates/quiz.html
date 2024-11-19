@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Quiz</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .quiz { background-color: #f4f4f4; padding: 20px; margin: 20px 0; }
+        .options { margin: 10px 0; }
+        .correct { color: green; }
+        .incorrect { color: red; }
+        input[type="submit"] { background-color: #4CAF50; color: white; border: none; padding: 10px; }
+    </style>
+</head>
+<body>
+    <div class="quiz">
+        {% if quiz and quiz.quiz %}
+            <h2>Quiz Question</h2>
+            <p>{{ quiz.quiz }}</p>
+            
+            {% if is_correct is not none %}
+                {% if is_correct %}
+                    <p class="correct">Correct! Well done!</p>
+                {% else %}
+                    <p class="incorrect">Incorrect. The correct answer was Option {{ correct_answer }}.</p>
+                {% endif %}
+            {% endif %}
+
+            <form method="POST">
+                <div class="options">
+                    {% for label, option in quiz.options.items() %}
+                    <div>
+                        <input type="radio" id="{{ label }}" name="answer" value="{{ label }}" required>
+                        <label for="{{ label }}">{{ label }}. {{ option }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+                <input type="submit" value="Submit Answer">
+            </form>
+        {% else %}
+            <p>No quiz available. Please start over.</p>
+            <a href="{{ url_for('index') }}">Return to Home</a>
+        {% endif %}
+    </div>
+</body>
+</html>
